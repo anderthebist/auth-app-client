@@ -1,0 +1,69 @@
+.form_block{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .form_block .authon{
+    width: 500px;
+    background: #181817;
+    padding-bottom: 30px;
+  }
+  
+  .form_block .authon .navigation{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #AC0000;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .form_block .authon .navigation .active .navigation_item{
+    background: #AC0000;
+  }
+  
+  .form_block .authon .navigation .navigation_item{
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .form_block .authon .authon_body{
+    padding: 0 30px;
+  }
+  
+  .auth_title{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .input_field{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+  }
+  
+  .field-btn{
+    width: 100%;
+    background: #AC0000;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .error{
+    font-size: 15px;
+    color: red;
+    margin-bottom: 15px;
+  }

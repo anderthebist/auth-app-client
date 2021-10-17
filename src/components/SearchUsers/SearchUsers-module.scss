@@ -1,0 +1,43 @@
+.search__users {
+    width: 100%;
+    background: #1E1E1E;
+
+    .search__users__container {
+        max-width: 1280px;
+        margin: 0px auto;
+        padding: 10px 0;
+
+        .search_users__input {
+            width: 100%;
+            height: 25px;
+            border-radius: 4px;
+        }
+
+        .search__users__field {
+            position: relative;
+
+            .search__users__recomended {
+                width: 100%;
+                background: white;
+                position: absolute;
+                top:60px;
+                left: 0;
+                z-index: 15;
+                -webkit-box-shadow: 0 0 10px gray;
+                box-shadow: 0 0 10px gray;
+
+                .search__users__recomended__item {
+                    display: flex;
+                    padding: 10px;
+
+                    img {
+                        width: 55px;
+                        height: 55px;
+                        object-fit: cover;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

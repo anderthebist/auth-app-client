@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 10px auto 10px;
+  }
+  
+  .full_height{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    color: #fff;
+    background: #BE0700;
+    border: none;
+    outline: none;
+    padding: 9px 30px;
+    cursor: pointer;
+  }
+  
+  .tox-statusbar__text-container {
+    display: none !important;
+  }
